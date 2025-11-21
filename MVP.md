@@ -26,3 +26,21 @@ Deliver a working local CLI tool that:
 
 ### 3. CLI
 Commands:
+devbuddy index <path>
+devbuddy search "<query>"
+
+### 4. Testing
+- Tests for indexing
+- Tests for searching
+- Uses `pytest`
+
+---
+
+## 🚫 Out of Scope (for MVP)
+- Embeddings
+- Function-level parsing
+- Dependency graph
+- UI
+- API server
+- LLM use
+
